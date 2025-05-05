@@ -216,6 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(113,119,125,1) 0%, rgba(65,74,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); /* IE6-9 */
 }
+
 #portfolio h2 {
 	color: #54d0dd;
 }
@@ -225,6 +226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 }
 ul.cat li {
 	display: inline-block;
+	margin-left: 20px;
 }
 ol.type li {
 	display: inline-block;
@@ -488,5 +490,62 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   }
   #contact .social ul li {
     margin: 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .intro-text .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .intro-text .btn {
+    width: 90%;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 767px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .row,
+  .col-xs-12,
+  .col-md-6,
+  .col-sm-6,
+  .col-md-3,
+  .col-lg-3 {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .intro-text {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
   }
 }
