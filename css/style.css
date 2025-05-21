@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #414a52;
+	color:#aeb6bf;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -127,11 +127,28 @@ hr {
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
-	font-size: 16px;
+	font-size: 20px;
 	border-radius: 0;
 	margin-top: 20px;
 	transition: all 0.3s;
 }
+.btn-custom {
+  border-radius: 30px; /* פינות מעוגלות */
+  border: 2px solid #fff; /* קו מתאר לבן */
+  background-color: rgba(255, 255, 255, 0.2); /* מילוי לבן עם שקיפות 50% */
+  color:#f8f9f9; /* צבע טקסט – ניתן לשנות בהתאם לצורך */
+  padding: 18px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* אפקט בהובר */
+  color: #000;
+}
+
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #DEB887;
 	background-color: #414a52;
@@ -193,7 +210,8 @@ header .intro-text {
 	background: rgb(84,208,221); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */background: linear-gradient(to bottom, #292533 0%, #292533 100%);
+
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEB887', endColorstr='#DEB887', GradientType=0 ); /* IE6-9 */
 }
 #about .about-text {
@@ -204,8 +222,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEB887', end
 }
 #about p {
 	margin-bottom: 30px;
-	line-height: 21px;
+	line-height: 36px;
 }
+
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
