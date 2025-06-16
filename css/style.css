@@ -10,7 +10,7 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 400;
 	font-size: 36px;
-	color: #414a52;
+	color: #aeb6bf;
 }
 h3, h4 {
 	font-size: 18px;
@@ -238,7 +238,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEB887', end
 }
 
 #portfolio h2 {
-	color: #DEB887;
+	color: #292533;
 }
 .categories {
 	padding-bottom: 30px;
@@ -371,7 +371,7 @@ ol.type li a:hover {
 	background: rgb(84,208,221); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(84,208,221,1) 0%, rgba(127,220,230,1) 0%, rgba(84,208,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: linear-gradient(to bottom, #292533 0%, #292533 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEB887', endColorstr='#DEB887', GradientType=0 ); /* IE6-9 */
 }
 #contact form {
